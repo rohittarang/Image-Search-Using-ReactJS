@@ -19,6 +19,7 @@ function App() {
         <input type="text" className='form-control' value={photo} onChange={(e)=>{
           setPhoto(e.target.value)
         }} />
+        <button type='submit' onClick={changePhoto} className='btn btn-primary my-3'>Get Photo</button><br />
         <button type='submit' onClick={changePhoto} className='btn btn-primary my-3'>Get Photo</button>
       </div>
   
